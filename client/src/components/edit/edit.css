@@ -1,0 +1,35 @@
+.editText {
+  color: #1872f2;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.editForm {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.editForm > input {
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+.updateProfile {
+  background-color: #1872f2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}

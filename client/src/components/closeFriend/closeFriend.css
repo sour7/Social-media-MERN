@@ -1,13 +1,18 @@
 .sidebarFriend {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  .sidebarFriendImg {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
-  }
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  padding: 5px 0;
+}
+.sidebarFriend:hover {
+  background: rgb(211, 218, 248);
+}
+
+.sidebarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}

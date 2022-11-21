@@ -12,8 +12,21 @@ import {
 } from "@material-ui/icons";
 import { Users } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
+import { useState } from "react";
+import { useEffect } from "react";
+import axios from "axios";
 
 export default function Sidebar() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    const getAll = async () => {
+      const allusers = await axios.get("/users/all");
+      setUsers(allusers.data);
+    };
+    getAll();
+  }, []);
+
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -58,7 +71,8 @@ export default function Sidebar() {
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
-          {Users.map((u) => (
+          <h4>Suggestions</h4>
+          {users.map((u) => (
             <CloseFriend key={u.id} user={u} />
           ))}
         </ul>
