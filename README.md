@@ -1,4 +1,7 @@
 # Social-media-MERN
+
+https://user-images.githubusercontent.com/95950369/203310981-7a254231-1797-4a97-a66a-0685ca67022d.mp4
+
 ![Screenshot (83)](https://user-images.githubusercontent.com/95950369/203061068-e31504da-2ae0-46bd-8ec8-abc5c0c390fc.png)
 ![Screenshot (84)](https://user-images.githubusercontent.com/95950369/203061075-3cdc82e9-87f6-445b-8aac-49cffd0e2f41.png)
 ![Screenshot (82)](https://user-images.githubusercontent.com/95950369/203061081-bb699f7b-4693-4361-8358-1d4ed3f23dbe.png)
@@ -9,5 +12,5 @@
 ![Screenshot (77)](https://user-images.githubusercontent.com/95950369/203061280-948c2577-bf7a-4eb3-991b-bc0de3fd825c.png)
 
 
-https://user-images.githubusercontent.com/95950369/203310981-7a254231-1797-4a97-a66a-0685ca67022d.mp4
+
 
